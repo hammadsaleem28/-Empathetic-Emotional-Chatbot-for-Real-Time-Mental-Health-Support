@@ -1,0 +1,131 @@
+body {
+    background: url('../images/bg.png');
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.chat-container {
+    width: 100%;
+    max-width: 800px;
+    height: 80vh;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+h3 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.chat-box {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.chat-message {
+    margin-bottom: 10px;
+}
+
+.chat-message.user {
+    text-align: right;
+}
+
+.chat-message.bot {
+    text-align: left;
+}
+
+.chat-message .alert {
+    display: inline-block;
+    max-width: 70%;
+    border-radius: 20px;
+}
+
+.alert-primary {
+    background-color: #b4ab72;
+    color: white;
+}
+
+.alert-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.input-group {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.form-control {
+    border-radius: 10px 0 0 10px;
+}
+
+.btn-primary {
+    border-radius: 0 10px 10px 0;
+    background-color: #288ea7;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #2573aa;
+}
+
+.btn-audio,
+.btn-send-audio {
+    background-color: transparent;
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.btn-audio:hover,
+.btn-send-audio:hover {
+    color: #4465a1;
+}
+
+.document-message {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.document-message .document-actions {
+    margin-top: 5px;
+}
+
+.document-message .document-actions button {
+    margin-right: 5px;
+}
+
+.chat-message.audio {
+    text-align: center;
+}
+
+.chat-message.audio .audio-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
