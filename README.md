@@ -1,1 +1,1 @@
-# -Empathetic-Emotional-Chatbot-for-Real-Time-Mental-Health-Support
+# Empathetic-Emotional-Chatbot-for-Real-Time-Mental-Health-Support
